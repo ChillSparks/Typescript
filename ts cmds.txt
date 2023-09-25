@@ -1,0 +1,4 @@
+npm install -g typescript //install typescript in vs code
+tsc sandbox.ts   //only write this when js file is same name
+tsc sandbox.ts -w //updates browser when save changes, no need to compile ts in js with cmd tsc file.ts everytime
+tsc --init  //for creating tsconfig.json
